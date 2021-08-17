@@ -6,23 +6,62 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Header Style */
 header {
-  background-color: rgb(58, 58, 58);
-  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  background-image: url("/images/headerimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 10vw;
   color: white;
   height: 250px;
+  display: flex;
 }
+
+header .left {
+  width: 85%;
+}
+
+header .right {
+  width: 15%;
+  text-align: right;
+}
+
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.headertitle {
+  font-size: 10vw;
+  background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headertagline {
+  font-size: 3.5vw;
+}
+
+/* Body Style */
 h3 {
   background-color: rgb(58, 58, 58);
   padding: 20px;
   color: white;
   justify-content: center;
+  text-align: center;
 }
+
+/* Footer Style */
 footer {
   background-color: rgb(58, 58, 58);
   padding: 20px;
   color: white;
 }
+
 nav {
   background-color: rgb(58, 58, 58);
   padding: 20px;
