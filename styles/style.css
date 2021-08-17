@@ -13,7 +13,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  padding: 10vw;
+  padding: 10vw 10vw 20vw 10vw;
   color: white;
   height: 250px;
   display: flex;
@@ -44,6 +44,18 @@ header .right {
 
 .headertagline {
   font-size: 3.5vw;
+}
+
+.button {
+  background-color: black;
+  font-size: 3vw;
+  text-transform: uppercase;
+  padding: 3vw;
+  position: relative;
+  top: 2vh;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
 }
 
 /* Body Style */
