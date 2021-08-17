@@ -56,6 +56,7 @@ header .right {
   border-style: solid;
   border-width: 3px;
   border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
+  text-align: center;
 }
 
 /* Body Style */
@@ -66,43 +67,44 @@ h3 {
   text-align: center;
 }
 
-/* Footer Style */
-footer {
-  background-color: rgb(58, 58, 58);
-  padding: 20px;
+.casestudies {
+  background-image: url("/images/casestudy1.png");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  text-align: center;
   color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav {
-  background-color: rgb(0, 0, 0);
+/* Footer Style */
+footer {
   padding: 20px;
   color: white;
   display: flex;
-  align-items: flex-end;
 }
-text .info {
-  width: 85%;
+
+footer .left {
+  width: 60%;
+}
+
+footer .right {
+  width: 40%;
   text-align: right;
+  padding-left: 20px;
 }
-.footerheader {
-  background-color: rgb(0, 0, 0);
-  color: #AAAAAA;
-  font-family: "Inter", sans-serif;
+
+.footertagline {
   font-size: 3.5vw;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
-image .flip {
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: 2px solid;
-}
-}
-a {
-  color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+
+.footercopyright {
+  font-size: 2.5vw;
+  text-align: right;
+  color: gray;
 }
