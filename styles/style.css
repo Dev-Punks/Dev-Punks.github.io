@@ -121,6 +121,21 @@ h3 {
   color: #fbfa14;
 }
 
+/* Contact Form */
+#firstname {
+  background-color: black;
+  width: 20vw;
+  padding: 1vw;
+  border: 1px solid white;
+  color: white;
+}
+
+input,
+textarea,
+select {
+  color: white;
+}
+
 /* Footer Style */
 footer {
   padding: 10vw;
