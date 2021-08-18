@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgba(#eb7fe8, 0);
-  --overlay-color: #eb7fe8;
+  --overlay-color: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
   --menu-speed: 0.75s;
 }
 
