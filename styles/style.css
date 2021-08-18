@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --primary-color: white;
-  --overlay-color: white;
+  --primary-color: rgba(#eb7fe8, 0);
+  --overlay-color: #eb7fe8;
   --menu-speed: 0.75s;
 }
 
