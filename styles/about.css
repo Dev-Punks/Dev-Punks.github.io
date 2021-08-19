@@ -101,6 +101,19 @@ p {
     padding-left: 22px;
 }
 
+.dividing-line {
+    background-color: black;
+    padding: 3vw;
+    position: relative;
+    top: 2vh;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
+}
+
+.skills {
+    margin-top: 40px;
+}
 
 /* Mobile Style */
 @media (max-width: 768px) {
