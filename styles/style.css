@@ -364,31 +364,7 @@ footer .right {
       text-align: left;
       color: white;
   }
-  
-  #resume-download {
-    display: flex;
-    flex-direction: row;
-    padding-left: 22px;
-    background-color: black;
-    padding: 3vw;
-    position: relative;
-    top: 2vh;
-    border-style: solid;
-    border-width: 3px;
-    border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
-  }
-  
-  .text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
 
-  .skills {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-  }
 
   /* Footer Style */
   footer {
