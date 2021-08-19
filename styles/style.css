@@ -347,25 +347,6 @@ footer .right {
     font-family: "Inter", sans-serif;
     font-size: 0.6em;
   }
-
-  .about-astrid a {
-    font-size: 10vw;
-    background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .about-astrid a:hover {
-    font-size: 10vw;
-    background: -webkit-linear-gradient(180deg, #eb7fe8, #fbfa14);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .about-astrid {
-    font-size: 2vw;
-    color: white;
-  }
   
   .bio {
       position: relative;
@@ -384,14 +365,6 @@ footer .right {
       color: white;
   }
   
-  p {
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-  }
-  
   #resume-download {
     display: flex;
     flex-direction: row;
@@ -408,11 +381,13 @@ footer .right {
   .text {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
   }
 
   .skills {
-      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
   }
 
   /* Footer Style */
