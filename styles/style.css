@@ -102,7 +102,7 @@ h3 {
   font-size: 1.5em;
 }
 
-.casestudies {
+.projects {
   background-image: url("/images/casestudy1.png");
   background-attachment: fixed;
   background-size: cover;
@@ -119,7 +119,7 @@ h3 {
   align-items: center;
 }
 
-.casestudies a:hover {
+.projects a:hover {
   color: #fbfa14;
 }
 
@@ -195,7 +195,7 @@ footer .right {
   color: gray;
 }
 
-.ux {
+.webdevelopment {
   background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -311,7 +311,7 @@ footer .right {
     background-attachment:fixed;
     background-size: 100% auto;
   }
-  .casestudies {
+  .projects {
     background-image: url("/images/casestudy1.png");
     background-size: 150% 95%;
     width: 100%;
@@ -411,7 +411,7 @@ footer .right {
     color: gray;
   }
 
-  .ux {
+  .webdevelopment {
     background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
