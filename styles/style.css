@@ -198,9 +198,10 @@ footer .right {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
 
 /* Mobile Style */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
   body {
@@ -250,14 +251,14 @@ footer .right {
 
   .headertitle,
   .headertitle a {
-    font-size: 10em;
+    font-size: 1.5em;
     background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .headertitle a:hover {
-    font-size: 10vw;
+    font-size: 1.5em;
     background: -webkit-linear-gradient(180deg, #eb7fe8, #fbfa14);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
