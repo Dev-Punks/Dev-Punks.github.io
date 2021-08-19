@@ -200,6 +200,16 @@ footer .right {
   font-weight: bold;
 }
 
+.socialmedialinks {
+  font-size: 3em;
+}
+
+.socialmedialinks a:hover {
+  background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Mobile Style */
 @media only screen and (max-width: 768px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
