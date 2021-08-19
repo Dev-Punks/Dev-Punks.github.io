@@ -348,6 +348,73 @@ footer .right {
     font-size: 0.6em;
   }
 
+  .about-astrid a {
+    font-size: 10vw;
+    background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about-astrid a:hover {
+    font-size: 10vw;
+    background: -webkit-linear-gradient(180deg, #eb7fe8, #fbfa14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about-astrid {
+    font-size: 2vw;
+    color: white;
+  }
+  
+  .bio {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+        
+  .about-astrid {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+  }
+  
+  .info {
+      text-align: left;
+      color: white;
+  }
+  
+  p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  
+  #resume-download {
+    display: flex;
+    flex-direction: row;
+    padding-left: 22px;
+    background-color: black;
+    padding: 3vw;
+    position: relative;
+    top: 2vh;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .skills {
+      margin-top: 40px;
+  }
+
   /* Footer Style */
   footer {
     padding: 10vw;
