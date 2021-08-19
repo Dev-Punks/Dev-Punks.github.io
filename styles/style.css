@@ -410,3 +410,13 @@ footer .right {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
+
+.socialmedialinks {
+  font-size: 1em;
+}
+
+.socialmedialinks a:hover {
+  background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
