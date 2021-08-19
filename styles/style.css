@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: gray;
+  color: #fbfa14;
   text-decoration: none;
 }
 
@@ -122,7 +122,8 @@ h3 {
 }
 
 /* Contact Form */
-#firstname {
+#firstname,
+#lastname {
   background-color: black;
   width: 20vw;
   padding: 1vw;
@@ -130,10 +131,31 @@ h3 {
   color: white;
 }
 
+#message {
+  background-color: black;
+  width: 43vw;
+  padding: 1vw;
+  border: 1px solid white;
+  color: white;
+}
+
+#submit {
+  background-color: black;
+  width: 20vw;
+  padding: 1vw;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
+  color: white;
+  font-weight: bold;
+}
+
 input,
 textarea,
 select {
   color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 0.6em;
 }
 
 /* Footer Style */
@@ -163,6 +185,12 @@ footer .right {
   color: gray;
 }
 
+.ux {
+  background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
 /* Mobile Style */
 @media (max-width: 768px) {
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -179,7 +207,7 @@ footer .right {
   }
 
   a:hover {
-    color: gray;
+    color: #fbfa14;
     text-decoration: none;
   }
 
@@ -272,6 +300,46 @@ footer .right {
     align-items: center;
   }
 
+  /* Contact Form */
+  #firstname,
+  #lastname {
+    background-color: black;
+    width: 35vw;
+    padding: 1vw;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  #message {
+    background-color: black;
+    width: 75vw;
+    padding: 1vw;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  #submit {
+    background-color: black;
+    width: 20vw;
+    padding: 1vw;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(-60deg, #fbfa14, #eb7fe8) 1;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+
+  input,
+  textarea,
+  select {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.6em;
+  }
+
   /* Footer Style */
   footer {
     padding: 10vw;
@@ -298,4 +366,10 @@ footer .right {
     text-align: right;
     color: gray;
   }
+
+  .ux {
+    background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
