@@ -121,6 +121,14 @@ h3 {
   color: #fbfa14;
 }
 
+.contacttext {
+  background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  text-align: center;
+}
+
 /* Contact Form */
 #firstname,
 #lastname {
@@ -242,7 +250,7 @@ footer .right {
 
   .headertitle,
   .headertitle a {
-    font-size: 10vw;
+    font-size: 10em;
     background: -webkit-linear-gradient(180deg, #fbfa14, #eb7fe8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
